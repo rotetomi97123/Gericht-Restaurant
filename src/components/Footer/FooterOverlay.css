@@ -1,0 +1,112 @@
+.app__FooterOverlay {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.app__FooterOverlay-contact {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+.app__FooterOverlay-p {
+    padding-bottom: 1rem;
+}
+.app__FooterOverlay-gericht {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app__FooterOverlay-working {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app__FooterOverlay-gericht_h1 {
+    width: 289px;
+    height: 83px;
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-golden);
+    padding-bottom: 6rem;
+}
+.app__FooterOverlay-gericht-logos {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.app__FooterOverlay-gericht-logo {
+    padding-right: 1rem;
+}
+.app__FooterOverlay-gericht-p2{
+    width: 438px;
+    height: 56px;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.app__FooterOverlay-working-p1 {
+    text-align: center;
+    color: #AAA;
+    width: 170px;
+    height: 56px;
+    margin-top: 0rem;
+}
+.app__FooterOverlay-working-p2 {
+    text-align: center;
+    color: #AAA;
+    width: 180px;
+    height: 56px;
+}
+.app__FooterOverlay-rights-mobile {
+    display: none;
+}
+@media screen and (max-width:1150px) {
+
+}
+@media screen and (max-width:950px) {
+    .app__FooterOverlay-gericht-p2 {
+    width: 250px;
+    font-size: 15px;
+    padding-bottom: 6rem;
+ }
+}
+@media screen and (max-width:650px) {
+    .app__FooterOverlay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .app__FooterOverlay-contact {
+        margin-top: 2rem;
+        text-align: center;
+        height: 70%;
+        width: 100%;
+    }
+    .app__FooterOverlay-rights {
+        display: none;
+    }
+    .app__FooterOverlay-working{
+        margin-top: -3rem;
+        width: 100%;
+    }
+    .app__FooterOverlay-rights-mobile {
+        display: flex;
+        margin-bottom: 3rem;
+    }
+}
